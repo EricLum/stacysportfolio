@@ -2,6 +2,11 @@ body {
   font-family: 'alber-new'
 }
 
+p {
+  font-size: 18px;
+}
+
+
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
@@ -85,11 +90,14 @@ li {
 
 .projects-display {
   display: grid;
-  grid-template-columns: 75% 25%;
+  grid-template-columns: 2% auto 25% 2%;
 }
 
 .width-75 {
-  width: 75%;
   height: auto;
-  max-width: 75%;
+  max-width: 85%;
+}
+
+.bold {
+  font-weight: bold;
 }

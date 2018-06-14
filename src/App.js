@@ -13,6 +13,7 @@ class App extends Component {
             <img src={stacyslogo} height='80px'/>
           </div>
           <div></div>
+          {/*navbar */}
           <div className="nav">
             <ul>
               <li>Projects</li>
@@ -23,18 +24,23 @@ class App extends Component {
           </div>
         </div>
 
+        {/*project banner */}
         <div className='center vertical-center grey-background banner-height'>
           <p className='large-font'> Projects </p>
         </div>
 
+        {/*projet displays  */}
         <div className='projects-display center'>
+          <div> </div>
           <div><img className='width-75' src={cryospace} /></div>
-          <div>
-            <label>Cryospace</label>
-            <p>Role: UX Designer & Content Strategist
-            The Project: Design a website for a facility that uses advanced technology to promote speedy recovery from athletic injuries or post-surgeries.</p>
+          <div className='center'>
+            <h3>Cryospace</h3>
+            <p className='bold'>Role: UX Designer & Content Strategist</p>
+            <p>The Project: Design a website for a facility that uses advanced technology to promote speedy recovery from athletic injuries or post-surgeries.</p>
             </div>
         </div>
+        <div></div>
+        <hr></hr>
         </div>
 
     );
