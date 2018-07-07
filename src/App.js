@@ -13,7 +13,7 @@ class App extends Component {
             <img src={stacyslogo} height='80px'/>
           </div>
           <div></div>
-          {/*navbar */}
+
           <div className="nav">
             <ul>
               <li>Projects</li>
@@ -24,22 +24,29 @@ class App extends Component {
           </div>
         </div>
 
-        {/*project banner */}
-        <div className='center vertical-center grey-background banner-height'>
-          <p className='large-font'> Projects </p>
+
+        <div className='bold center'>
+          <span>Hi, I am a </span><span className='orange'>Product Designer</span><span>, creating amazing experiences through research centered design and creative narration.</span>
         </div>
 
-        {/*projet displays  */}
-        <div className='projects-display center'>
-          <div> </div>
-          <div><img className='width-75' src={cryospace} /></div>
-          <div className='center'>
-            <h3>Cryospace</h3>
-            <p className='bold'>Role: UX Designer & Content Strategist</p>
-            <p>The Project: Design a website for a facility that uses advanced technology to promote speedy recovery from athletic injuries or post-surgeries.</p>
-            </div>
+        <h2>What I do</h2>
+        <div>
+          I approach problems from the needs of the user and turn complex processes into simple and relatable solutions.
+          <br />
+          <br />
+          My goal is to create products that aer effective with thoughtful visual design intertwined with functionality.
         </div>
-        <div></div>
+
+        <h2>My Projects</h2>
+        {/*four grid  */}
+        <div className='center'>
+          Work with me!
+          <br/>
+          Contact me at <span className='orange'>stacyyipdesign@gmail.com</span>
+        </div>
+
+
+
         <hr></hr>
         </div>
 

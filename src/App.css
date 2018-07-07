@@ -1,5 +1,5 @@
 body {
-  font-family: 'alber-new'
+  font-family: 'Montserrat', sans-serif;
 }
 
 p {
@@ -26,11 +26,6 @@ p {
 .App-intro {
   font-size: large;
 }
-/*
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}*/
 
 .header {
   display: grid;
@@ -92,6 +87,9 @@ li {
   display: grid;
   grid-template-columns: 2% auto 25% 2%;
 }
+.orange {
+  color: RGB(212,124,44)
+}
 
 .width-75 {
   height: auto;
@@ -100,4 +98,10 @@ li {
 
 .bold {
   font-weight: bold;
+}
+
+.four-grid-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(2, 1fr)
 }
