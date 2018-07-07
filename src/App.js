@@ -28,8 +28,11 @@ class App extends Component {
         <div className='bold center'>
           <span>Hi, I am a </span><span className='orange'>Product Designer</span><span>, creating amazing experiences through research centered design and creative narration.</span>
         </div>
+        <br></br>
+        <br></br>
 
-        <h2>What I do</h2>
+        <h3>What I do</h3>
+        <br></br>
         <div>
           I approach problems from the needs of the user and turn complex processes into simple and relatable solutions.
           <br />
@@ -37,8 +40,20 @@ class App extends Component {
           My goal is to create products that aer effective with thoughtful visual design intertwined with functionality.
         </div>
 
-        <h2>My Projects</h2>
-        {/*four grid  */}
+        <h3 className=''>My Projects</h3>
+        <br></br>
+        <div className='four-grid-container center'>
+          <div>
+            <img src='/pics/opusbookingcalendar.png'/>
+          </div>
+          <div>
+            <img src='/pics/parkchesterpreservation.png'/>
+          </div>
+          <div>
+            <img src='/pics/zeromasswater.png' />
+          </div>
+          <div></div>
+        </div>
         <div className='center'>
           Work with me!
           <br/>
